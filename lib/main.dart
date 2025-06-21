@@ -10,6 +10,7 @@ void main() {
 }
 
 final GoRouter _router = GoRouter(
+  initialLocation: "/",
   routes: [
     GoRoute(path: "/", builder: (context, routerState) => HomeScreen()),
     GoRoute(path: "/bestCapital", builder: (context, routerState) => BestCapital()),
