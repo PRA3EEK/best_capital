@@ -13,7 +13,10 @@ final GoRouter _router = GoRouter(
   initialLocation: "/",
   routes: [
     GoRoute(path: "/", builder: (context, routerState) => HomeScreen()),
-    GoRoute(path: "/bestCapital", builder: (context, routerState) => BestCapital()),
+    GoRoute(
+      path: "/bestCapital",
+      builder: (context, routerState) => BestCapital(),
+    ),
   ],
 );
 
@@ -22,6 +25,12 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp.router(routerConfig: _router);
+    return MaterialApp.router(
+      routerConfig: _router,
+      theme: ThemeData(
+        colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
+        textTheme: TextTheme()
+      ),
+    );
   }
 }

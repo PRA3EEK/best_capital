@@ -11,7 +11,10 @@ class _HomeScreenState extends State<HomeScreen> {
   @override
   Widget build(BuildContext context) {
     return Center(
-      child: Text("Get user current location"),
+      child: Text(
+        "Welcome to Best Capital home page",
+        style: Theme.of(context).textTheme.bodyLarge,
+      ),
     );
   }
 }
