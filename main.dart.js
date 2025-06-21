@@ -67517,7 +67517,8 @@ X1(a){var s,r
 $.W.toString
 s=A.dq($.ak().guw())
 r=(s.gBz()?A.Ak(null,"/",s.gqw()):s).k(0)
-return r}}
+if(r==="/")return a
+else return r}}
 A.V_.prototype={
 $2(a,b){return new A.k5(this.a,b,null)},
 $S:450}
@@ -73762,7 +73763,7 @@ r($,"arE","acZ",()=>{var q=new A.Zi()
 q.Uj($.ag9())
 return q})
 s($,"aDm","aoK",()=>{var q=null,p=A.c([A.ae6(new A.aca(),"/"),A.ae6(new A.acb(),"/bestCapital")],t.yo)
-return A.arH(!1,q,q,q,q,q,q,q,q,!1,q,!0,q,!1,new A.Il(new A.a1u(p,A.azm(),5)))})
+return A.arH(!1,q,q,q,q,"/",q,q,q,!1,q,!0,q,!1,new A.Il(new A.a1u(p,A.azm(),5)))})
 s($,"aAh","ad_",()=>A.atI(null,A.dq("")))
 r($,"aBt","anz",()=>{var q=null
 return A.atK(q,q,B.i5,B.f3,A.Ak(q,q,q))})
