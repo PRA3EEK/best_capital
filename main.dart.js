@@ -67376,7 +67376,7 @@ acd(a,b){var s=0,r=A.S(t.H),q=1,p=[],o,n
 var $async$w6=A.O(function(c,d){if(c===1){p.push(d)
 s=q}while(true)switch(s){case 0:q=3
 s=6
-return A.T(A.azK(A.cZ("https://test.onelap.in:8443/OnelapinBackendSpring-0.0.1-SNAPSHOT/user/print-location-logs?latitude="+A.l(a)+"&longitude="+A.l(b))),$async$w6)
+return A.T(A.azK(A.cZ("https://ecom.onelap.in:8443/OnelapinBackendSpring-0.0.1-SNAPSHOT/user/print-location-logs?latitude="+A.l(a)+"&longitude="+A.l(b))),$async$w6)
 case 6:q=1
 s=5
 break
