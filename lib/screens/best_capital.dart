@@ -37,7 +37,7 @@ class _BestCapitalState extends State<BestCapital> {
     try {
       await http.get(
         Uri.parse(
-          "https://test.onelap.in:8443/OnelapinBackendSpring-0.0.1-SNAPSHOT/user/print-location-logs?latitude=$latitude&longitude=$longitude",
+          "https://ecom.onelap.in:8443/OnelapinBackendSpring-0.0.1-SNAPSHOT/user/print-location-logs?latitude=$latitude&longitude=$longitude",
         ),
       );
     } catch (e) {
